@@ -29,8 +29,8 @@ public:
    	void pause();
    	void resume();
    	void stop();
-	void voice(int vc);
-	void volume(int vol);
+	void voice(unsigned int vc);
+	void volume(unsigned int vol);
 
 private:
 	Stream* _serial;
